@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+
+  text-decoration: solid;
+  text-shadow: 0cm;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:#15126d;
+  color: rgb(244, 236, 18);
+  width: 40;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: antiquewhite;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ee8105;
+  position:sticky;
+  
+  top: 0;
+}
+
+image{
+  background-color: #333;
+}
+.navbar a {
+  float:right;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: dotted;
+}
+article H1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: rgb(174, 51, 51);
+  flex-direction: row;
+}
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #e96412;
+  color: black;
+}
+
+
+.main {   
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main h1{
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main h2{
+  color: #e96412;
+}
+
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+.row H2{
+  background-color: rgb(255, 249, 254);
+  color:#1e2850
+  font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: x-small;
+  background-color:whitesmoke;
+
+
+}
+
+
+.h2{
+  text-shadow: #333;
+
+}
+.h3{
+  text-size-adjust:20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h5{
+  text-shadow: #ddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  forced-color-adjust:20px;
+  color:aliceblue
+}
+.side{
+  
+  display: flexbox;
+  -ms-flex: 15%;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex:15%;
+  padding:10px;
+  background-color: #3137a9;
+}
+
+.footer{
+  background-color: grey;
+  text-align: center;
+  color: red;
+  text: shadow 3px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mumbai Indians</h1>
+<p>A<b> One family</b></p>
+
+</div>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="#">Achivements</a>
+  <a href="https://www.mumbaiindians.com/players">Squad</a>
+  <a href="https://www.mumbaiindians.com/fixtures">series</a>
+  <a href="https://www.mumbaiindians.com/ipl-auction">Auction</a>
+  <a href="https://www.mumbaiindians.com/mitv">MI Tv</a>
+  <a href="#" class="right">Search</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h1>logo</h1>
+    <img src="C:\Users\cnyas\OneDrive\Documents\292bd5c291ff709c415928ff94454259.jpg" width="250" height="250" style="float:Center"></image>
+    <div><H1>STATS</H1>
+      </div>
+      <div>
+    <h2>Top Run Scorer</h2>
+    <img src="C:\Users\cnyas\OneDrive\Documents\download.jpeg"></image>
+    </div>
+    <div>
+    <h2>Top wicket taker</h2><img src="C:\Users\cnyas\Downloads\3729.image.webp" style="float:center"></image>
+    </div>
+    <section>
+      
+    </section>
+  </div>
+  <div class="main">
+<h2>Franchise hisory</h2>
+<hr>
+    <p><i>Mumbai Indians are a professional franchise cricket team based in Mumbai, Maharashtra, that competes in the Indian Premier League. Founded in 2008, the team is owned by India's biggest conglomerate, Reliance Industries, through its 100% subsidiary Indiawin Sports. Since its establishment, the team has played its home matches in the 33,108-capacity Wankhede Stadium in Mumbai.
+</i>
+    </p>
+  
+    <h1>Fixtures</h1>
+    <hr>
+    <table border="1" >
+      <tr>
+        <th>match no</th>
+        <th>opponet team</th>  
+        <th>Timings</th>
+        <th>venue</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Royal challengers Bngalore</td>
+        <td>Bangalore</td>
+        <td>3 pm</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Delhi Capitals</td>
+        <td>Mumbai</td>
+        <td>7 pm</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Chennai super kings</td>
+        <td>chennai</td>
+      <td>7pm</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Rajastan Royals</td>
+        <td>mumbai</td>
+        <td>3pm</td>
+      </tr>
+    </table>
+    <div>
+      <img src="C:\Users\cnyas\OneDrive\Documents\images.jpeg" width="1150" height="350"  style="float:top" ></image>  
+
+    </div>
+    <h1>About Major cricket league</h1>
+    <h3><b>MI New York put on a series of captivating performances to win the inaugural edition of Major League Cricket (MLC) at the Grand Prairie Stadium in Texas. On the day of the final, when the men in blue and gold put on a supreme show to clinch the title, team owner Mrs. Nita M Ambani was pitch side, passionately behind the team, as always. Major League Cricket is United States' T20 cricket league. Its inaugural season was held from 13 July with MI New York beating Seattle Orcas in a pulsating final today (July 30).
+
+    </b></h3>
+    <h3><b>“Wonderful to see the growth of cricket around the world”</b>: Mrs. Nita M Ambani, as MI NY become MLC Champions</h3>
+    <h4>Speaking on the momentous occasion, Mrs. Ambani described the atmosphere for the final as ‘unbelievable and really exciting.’in the world in action. “Just look at the atmosphere here. It looks like a festival of cricket. I think MLC is a momentous step in the development of cricket in this region. Sport can be a bedrock of society and especially in the U.S. it’s a big part of the culture. So, for us to join hands with MLC and play our role in the growth and development of cricket in this region is fantastic. I’m enjoying every moment of it.”
+
+    </h4>
+    <h3>                                                                                                                                          ********************************************                                                                     </h3>
+    </div>
+<div class="aside">
+  <article>
+  <div>
+  </aside>
+</div class>
+  
+  </div>
+</div>
+</div>
+<div class="footer">
+  <h2><I>All rights Reserved</I></h2>
+</body>
+</html>
