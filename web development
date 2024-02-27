@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <meta charset="UTF-8">
+    <head>
+    <title>my protfolio</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Yashu</h1>
+            
+            <nav class="navbar">
+                <a href="#">HOME</a>
+                <a href="#">SKILLS</a>
+                <a href="#">ABOUT</a>
+                <a href="#">ACHIVEMENTS</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">HIRE ME</a>
+            </nav>
+        </header>
+        </div>
+        <div class="home">
+            <div class="home-content">
+                <h1>Hello I'm                  <span>                               Yashavanth</h1><br>
+                <div class="images">
+                    <img src="C:\Users\cnyas\OneDrive\Pictures\IMG_20200319_095524_513-01.jpeg" width="300" height="280" >
+                </div>
+                <h3>Frontend developer</h3>
+                <p>This is my official protfolio website to show all<br>
+                    Details and work experience of web development</p>
+
+            <div class="btn-box">
+                <a href="#">Download CV</a> <br>
+                
+            </div>
+            
+</div>
+</div>
+        
+    </body>
+    </html>
